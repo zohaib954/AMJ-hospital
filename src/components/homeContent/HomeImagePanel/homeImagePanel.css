@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+:root{
+    --light-blue : #E2F0F9;
+    --blue : #B0DDE4;
+    --dark-blue: #286FB4;
+    --white : #FFFFFF;
+    --pink : #DF4C73;
+}
+
+.homeImagePanel{
+    position: relative;
+}
+
+.bg-image{
+    background-image: linear-gradient(90deg, rgba(40,111,180,1) 0%, rgba(176,221,228,1) 35%, rgba(223,76,115,1) 100%), url("./College-photo.jpeg");
+  height: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+
+.bg-head{
+  text-align: left;
+  position: absolute;
+  top: 50px; 
+  left: 50px;
+  color: white;
+  width: 40%;
+  height: auto;
+  font-size: 25px;
+}
+
+.bg-para{
+    text-align: left;
+    position: absolute;
+    top: 260px; 
+    left: 50px;
+    color: white;
+    width: 40%;
+    height: auto;
+}
+
+.contact-btn button{
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: large;
+    width: 10%;
+    height: 35px;
+    background-color: var(--pink);
+    position: absolute;
+    left: 50px;
+    top: 330px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-btn button:hover{
+    background-color: transparent;
+}
